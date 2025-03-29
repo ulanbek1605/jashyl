@@ -1,0 +1,387 @@
+.greenfuture_title {
+	width: 445px;
+	font-size: 45px;
+	letter-spacing: 0.5%;
+	line-height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 64px auto 48px;
+}
+
+.greenfuture_title>span {
+	color: #2502DF;
+}
+
+.greenfuture_title-green {
+	position: absolute;
+	z-index: -1;
+	width: 120px;
+	height: 66px;
+	left: 0;
+	top: -7.5px;
+}
+
+
+.grid-container {
+	max-width: 964px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 49.5% 49.5%;
+	grid-template-rows: 138px auto;
+	gap: 15px;
+	margin: 0 auto;
+}
+
+/* Верхний левый (синий) блок */
+.explore {
+	max-width: 472px;
+	width: 100%;
+	height: 138px;
+	background: #7b89f4;
+	border-radius: 25.98px;
+	padding: 36px 20px;
+	color: white;
+}
+
+.explore_block {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.explore p {
+	font-size: 16px;
+	/* margin-left: 18px; */
+}
+
+.explore h3 {
+	font-size: clamp(16px, 3vw, 36px);
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.circle {
+	width: 54px;
+	height: 47px;
+}
+
+/* Верхний правый (зеленый) блок */
+.bonus {
+	background: #cbf4be;
+	border-radius: 65px 00% 0%;
+	padding: 39px;
+	max-width: 472px;
+	width: 100%;
+	height: 190px;
+	position: relative;
+}
+
+.bonus_first_block {
+	display: flex;
+	gap: 7px;
+	margin-bottom: 10px;
+
+}
+
+.bonus p {
+	font-size: 14px;
+	color: #000000;
+	opacity: 50%;
+}
+
+.logoBonus {
+	width: 25px;
+	height: 25px;
+	margin-top: -10px;
+}
+
+.bonus h3 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.bonus_icon_absolute-one {
+	position: absolute;
+	bottom: 13px;
+}
+
+.bonus_icon_absolute-two {
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+}
+
+.bonus_icon-one {
+	width: 80px;
+	height: 60px;
+}
+
+.bonus_icon-two {
+	width: 174px;
+	height: 70px;
+}
+
+/* Изображение природы */
+.nature {
+	grid-column: span 1;
+}
+
+.nature-image {
+	max-width: 472px;
+	width: 100%;
+	height: 216px;
+	border-radius: 15px;
+}
+
+/* Нижний черный блок */
+.vending {
+	max-width: 472px;
+	width: 100%;
+	height: 154px;
+	background: #2E2D2B;
+	border-radius: 20px;
+	padding: 27.5px 24px;
+	grid-column: span 1;
+	text-align: start;
+	margin-top: 60px;
+}
+
+.vending p {
+	max-width: 270px;
+	color: #C7FFB4;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+@media (max-width: 750px) {
+	.explore h3 {
+		gap: 4px;
+	}
+
+	.bonus {
+		border-radius: 25px 25px 25px 0;
+	}
+
+	.logoBonus {
+		display: none;
+	}
+
+	.bonus h3 {
+		font-size: 25px;
+		text-wrap: nowrap;
+
+	}
+}
+
+
+@media (max-width: 630px) {
+
+	.greenfuture {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.grid-container {
+		max-width: 470px;
+		width: 100%;
+		grid-template-columns: 1fr;
+		grid-template-columns: 100%
+	}
+
+
+	.explore {
+		max-width: 472px;
+		width: 100%;
+		height: 138px;
+		background: #7b89f4;
+		border-radius: 25.98px;
+		padding: 36px 20px;
+		color: white;
+	}
+
+	.explore_block {
+		max-width: 400px;
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+	.explore p {
+		font-size: 16px;
+	}
+
+	.explore h3 {
+		font-size: clamp(26px, 3vw, 36px);
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.circle {
+		width: 54px;
+		height: 47px;
+	}
+
+	/* Верхний правый (зеленый) блок */
+	.bonus {
+		background: #cbf4be;
+		border-radius: 25px 25px 25px 0;
+		padding: 39px;
+		max-width: 472px;
+		width: 100%;
+		height: 190px;
+		position: relative;
+	}
+
+	.bonus_first_block {
+		display: flex;
+		gap: 7px;
+		margin-bottom: 10px;
+
+	}
+
+	.bonus p {
+		font-size: 14px;
+		color: #000000;
+		opacity: 50%;
+	}
+
+	.logoBonus {
+		width: 25px;
+		height: 25px;
+		margin-top: -10px;
+		display: block;
+	}
+
+	.bonus h3 {
+		font-size: 32px;
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.bonus_icon_absolute-one {
+		position: absolute;
+		bottom: 13px;
+	}
+
+	.bonus_icon_absolute-two {
+		position: absolute;
+		bottom: 0;
+		right: 10%;
+	}
+
+	.bonus_icon-one {
+		width: 80px;
+		height: 60px;
+	}
+
+	.bonus_icon-two {
+		width: 174px;
+		height: 70px;
+	}
+
+
+	.vending {
+		margin-top: 0;
+	}
+}
+
+
+@media (max-width: 510px) {
+	.greenfuture_title {
+		width: 330px;
+		font-size: 36px;
+		margin: 20px auto;
+	}
+
+	.greenfuture_title-green {
+		top: -16.5px;
+	}
+}
+
+@media (max-width: 400px) {
+	.explore {
+		max-width: 339px;
+		width: 100%;
+		height: 125px;
+		background: #7b89f4;
+		border-radius: 25.98px;
+		padding: 30px 15px;
+		color: white;
+	}
+
+	.explore p {
+		font-size: 14px;
+	}
+
+	.explore h3 {
+		font-size: 20px;
+	}
+
+	.circle {
+		width: 44px;
+		height: 50px;
+	}
+
+	.bonus {
+		padding: 30px 20px;
+		max-width: 339px;
+		width: 100%;
+		height: 149px;
+	}
+
+	.bonus h3 {
+		font-size: 20px;
+	}
+
+	.bonus_icon-two {
+		width: 92px;
+		height: 24px;
+	}
+
+	.bonus_icon_absolute-one {
+		bottom: -17px;
+	}
+
+	.bonus_icon_absolute-two {
+		right: 0%;
+	}
+
+	.nature-image {
+		max-width: 339px;
+		height: 156px;
+	}
+
+	.vending {
+		max-width: 339px;
+		width: 100%;
+		height: 134px;
+	}
+
+	.vending p {
+		max-width: 270px;
+		color: #C7FFB4;
+		font-size: 20px;
+	}
+
+	.greenfuture_title {
+		width: 279px;
+		font-size: 29px;
+		margin: 20px auto;
+	}
+}
+
+
+@media(max-width: 350px) {
+	.greenfuture_title {
+		width: 280px;
+		font-size: 32px;
+	}
+}
