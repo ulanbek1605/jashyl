@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import Image from 'next/image'
+import Link from 'next/link'
 function Footer() {
 	return (
 		<div className='global_container'>
@@ -27,7 +28,42 @@ function Footer() {
 					</div>
 				</div>
 
-				<div className=''></div>
+				<div className='footerInfo'>
+					<div className="footerLogo">
+						<Image src='/images/svg/footerLogo.svg' alt="FooterLogo" width={0} height={0} sizes={'100%'} />
+					</div>
+					<div className="footerTitle">
+						Начните развивать свой бизнес с <br /> персональным менеджером
+					</div>
+					<div className='email-block'>
+						<div className="input-container">
+							<span className="icon">
+								<Image src='/images/svg/inputIcon.svg' alt="FooterLogo" width={20} height={20} />
+							</span>
+							<input
+								type="email"
+								placeholder="Введите адрес электронной почты"
+								className="input"
+							/>
+						</div>
+						<button className='btn-email'>Попробовать</button>
+					</div>
+
+					<div className='footer-config'>
+						<Link href="/privacy" > <p>Условия конфиденциальности</p></Link>
+						<Link href="/privacy" > <p>Политика</p></Link>
+					</div>
+				</div>
+
+				<div className="footer-bottom">
+					<p>Создание сайта 'PROlab Agency'</p>
+					<div className="social-icons">
+						<Image src="/images/svg/twitter.svg" alt="Twitter" width={20} height={20} />
+						<Image src="/images/svg/instagram.svg" alt="Instagram" width={20} height={20} />
+						<Image src="/images/svg/linkedin.svg" alt="LinkedIn" width={20} height={20} />
+					</div>
+					<p>© 2024 Все права защищены.</p>
+				</div>
 			</div>
 		</div>
 	)
