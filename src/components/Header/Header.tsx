@@ -9,9 +9,9 @@ function Header() {
 	return (
 		<div className='global_container'>
 			<div className='header'>
-				<div className="header_logo">
+				<Link href='/' className="header_logo">
 					<Image src="/images/svg/logo.svg" alt="Logo" width={50} height={50} />
-				</div>
+				</Link>
 				<nav className="header_nav">
 					<Link href="/" className={pathName === '/' ? 'active' : ''}>Главная</Link>
 					<Link href="/about" className={pathName === '/about' ? 'active' : ''}>О нас</Link>

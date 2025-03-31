@@ -161,6 +161,7 @@
 @media (max-width: 750px) {
 	.explore h3 {
 		gap: 4px;
+		font-size: 16px;
 	}
 
 	.bonus {
@@ -172,9 +173,14 @@
 	}
 
 	.bonus h3 {
-		font-size: 25px;
+		font-size: 20px;
 		text-wrap: nowrap;
 
+	}
+
+
+	.vending p {
+		font-size: 20px;
 	}
 }
 
@@ -206,7 +212,7 @@
 	}
 
 	.explore_block {
-		max-width: 400px;
+		max-width: 333px;
 		width: 100%;
 		margin: 0 auto;
 
@@ -303,6 +309,13 @@
 
 	.greenfuture_title-green {
 		top: -16.5px;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.explore h3 {
+		font-size: 20px;
 	}
 }
 

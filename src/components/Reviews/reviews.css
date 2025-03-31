@@ -1,0 +1,88 @@
+.reviews {
+	padding: 64px 0;
+	display: flex;
+	gap: 32px;
+}
+
+
+.reviews_left {
+	width: 326px;
+	height: 174px;
+
+}
+
+.reviews_left h6 {
+	padding: 6px 0 17px 8px;
+	font-family: "Mazzard";
+	font-weight: 700;
+	font-size: "8.31px";
+	line-height: "140%";
+	letter-spacing: "0%";
+	text-transform: "uppercase";
+	color: #000000;
+	opacity: 70%;
+}
+
+.reviews_left h1 {
+	padding-bottom: 10px;
+	font-weight: 700;
+	font-size: "36px";
+	line-height: "40px";
+	letter-spacing: "0%";
+	color: #000000;
+}
+
+.reviews_rigth {
+	display: flex;
+	gap: 16px;
+	overflow-x: scroll;
+}
+
+.reviews_rigth::-webkit-scrollbar {
+	display: none;
+}
+
+.reviews_card {
+	width: 310px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	background-color: #F2FFFC;
+	border-radius: 16px;
+}
+
+.reviews_card-top {
+	width: 250px;
+	height: 96px;
+}
+
+.reviews_card-title {
+	font-size: 20px;
+	line-height: 100%;
+	letter-spacing: -2%;
+	padding-bottom: 8px;
+}
+
+
+.reviews_card-description {
+	font-size: 14px;
+}
+
+.reviews_card-userBlock {
+	display: flex;
+	gap: 16px;
+}
+
+@media (max-width: 710px) {
+	.reviews {
+		flex-direction: column;
+	}
+}
+
+
+/* @media (max-width: 490px) {
+	.reviews {
+		padding-bottom: 0;
+	}
+} */
