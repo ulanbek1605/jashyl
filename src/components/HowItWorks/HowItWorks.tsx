@@ -52,6 +52,9 @@ function HowItWorks() {
 			</div>
 
 			<div className="our_mission">
+				<div className='btn_mobile'>
+					<button className='btn_mission'>Read More</button>
+				</div>
 				<div className="mission-left">
 					<Image src="/images/img/ourMission.png" className='mission_left-img' alt="our mission" width={0} height={0} sizes={'100%'} />
 				</div>

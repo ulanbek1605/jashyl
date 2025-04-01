@@ -105,7 +105,14 @@
 	font-size: 14px;
 }
 
-
+.btn_mobile {
+	display: flex;
+	justify-content: start;
+	text-align: start;
+	width: 100%;
+	margin-top: 24px;
+	display: none;
+}
 
 @media(max-width:850px) {
 
@@ -152,8 +159,14 @@
 }
 
 @media(max-width:700px) {
+	.works_block_title {
+		flex-direction: column;
+		justify-content: start;
+		align-items: start;
+	}
+
 	.work_text {
-		display: none;
+		text-align: start;
 	}
 
 	.our_mission {
@@ -170,6 +183,8 @@
 	.mission-right .btn_mission {
 		display: none;
 	}
+
+
 }
 
 @media(max-width: 585px) {
@@ -197,7 +212,9 @@
 		font-size: 13px;
 	}
 
-
+	.btn_mobile {
+		display: flex;
+	}
 
 }
 
@@ -216,9 +233,21 @@
 
 	.work_card_inner {
 		width: 132px;
-		height: 92px;
+		height: 100px;
 		margin: 76px 0 0 8px;
 		padding: 6px;
+	}
+
+	.mission-left {
+		max-width: 339px;
+		width: 100%;
+
+	}
+
+	.mission_left-img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
 	}
 }
 
