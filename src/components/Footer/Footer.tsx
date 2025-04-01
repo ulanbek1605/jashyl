@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 function Footer() {
 	const pathname = usePathname()
 	console.log(pathname);
-
+	
 	return (
 		<>
 			<div className={pathname === '/privacy-policy' ? 'containerHidden' : 'global_container'}>
