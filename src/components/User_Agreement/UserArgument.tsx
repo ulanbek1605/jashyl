@@ -67,9 +67,9 @@ const UserAgreement = () => {
 				<p>
 					Используя Приложение Jashyl Bonus, вы подтверждаете, что ознакомились и согласны с условиями данного Соглашения.
 				</p>
-				<button onClick={handleAccept} disabled={isAccepted}>
+				{/* <button onClick={handleAccept} disabled={isAccepted}>
 					{isAccepted ? 'Вы согласились' : 'Принять соглашение'}
-				</button>
+				</button> */}
 			</div>
 		</div>
 	);
