@@ -1,3 +1,6 @@
+.privacy{
+	margin-top: 100px;
+}
 .privacy-title {
 	text-align: center;
 	font-size: 48px;
@@ -10,9 +13,9 @@
 }
 
 .privacy p {
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 1.6;
-	margin-bottom: 22px;
+	margin-bottom: 15px;
 }
 
 

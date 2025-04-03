@@ -29,7 +29,7 @@ const partners = [
 ]
 function Partners() {
 	return (
-		<div className='partners'>
+		<div className='partners' id='partners'>
 			<h2 className='partners_title'>
 				Наши партнеры
 			</h2>

@@ -41,9 +41,9 @@ const reviews = [
 ]
 function Reviews() {
 	return (
-		<div className='reviews'>
+		<div className='reviews' id='reviews'>
 			<div className="reviews_left">
-				<h6>FEATURES</h6>
+				<h6> что о нас говорят</h6>
 				<h1>Отзывы <br /> пользователей</h1>
 				<div className='reviews_icon-block'>
 					<Image src="/images/svg/reviewsIcon.svg" alt="reviews-icon" width={274} height={53} />

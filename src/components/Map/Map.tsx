@@ -1,9 +1,10 @@
 import React from 'react'
 import './map.css'
 import Image from 'next/image'
+import Link from 'next/link'
 function Map() {
 	return (
-		<div className='map'>
+		<div className='map' id='vending'>
 			<div className='position_icon-left'>
 				<Image src='/images/svg/mapIcon.svg' alt="icon" width={309} height={128} sizes={'100%'} />
 			</div>
@@ -23,7 +24,14 @@ function Map() {
 				<p className='map-description'>Мы верим, что маленькие шаги приводят к большим изменениям. Сдавая вторсырьё, вы помогаете уменьшить загрязнение планеты.
 				</p>
 				<div className='map-btn'>
-					<button className='btn_mission'>Присоединяйтесь</button>
+					<Link href="https://t.me/jashyl_bonus">
+						<button className='btn_mission'>
+							<Image src='/images/svg/mapbtn.svg' alt="icon" width={20} height={20} sizes={'100%'} />
+							<p>
+								Написать
+							</p>
+						</button>
+					</Link>
 				</div>
 			</div>
 

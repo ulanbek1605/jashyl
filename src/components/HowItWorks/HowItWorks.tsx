@@ -1,6 +1,7 @@
 import React from 'react'
 import './howItWorks.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const data = [
 	{
@@ -53,7 +54,9 @@ function HowItWorks() {
 
 			<div className="our_mission">
 				<div className='btn_mobile'>
-					<button className='btn_mission'>Read More</button>
+					<Link href='#partners'  >
+						<button className='btn_mission'>Партнеры</button>
+					</Link >
 				</div>
 				<div className="mission-left">
 					<Image src="/images/img/ourMission.png" className='mission_left-img' alt="our mission" width={0} height={0} sizes={'100%'} />
@@ -61,7 +64,9 @@ function HowItWorks() {
 				<div className="mission-right">
 					<h3>Наша миссия</h3>
 					<p>Платформа создается и расширяется с помощью протоколов улучшения и усовершенствования. Наша система дает каждому демократическое право голоса; держатели могут подавать или голосовать за предложения по обновлению платформы или помогать определять направление</p>
-					<button className='btn_mission'>Read More</button>
+					<Link href='#partners'  >
+						<button className='btn_mission'>Партнеры</button>
+					</Link >
 				</div>
 			</div>
 		</div >

@@ -25,14 +25,14 @@ const bonuses = [
 ]
 function Bonuses() {
 	return (
-		<div className='bonuses'>
+		<div className='bonuses' id='bonuses'>
 			<div className="bonuses_title">
 				<div className='bonuses_title_inner'>
 					<Image src="/images/svg/recycGreen.svg" alt="bonuses-icon" width={91} height={38} />
 					<h2>На что можно обменять бонусы?</h2>
 				</div>
 				<div className='bonuses_title_text'>
-					С ведущей командой инженеров мы существуем, чтобы перераспределять электроэнергию из
+				Наши партнеры предоставят вам приятные бонусы за ваши накопленные баллы
 				</div>
 			</div>
 

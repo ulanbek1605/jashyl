@@ -88,8 +88,15 @@
 	width: 117px;
 	height: 19px;
 	margin: 21px auto 52px;
-}
 
+	
+}
+.btn_mission{
+	text-align: center;
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
 
 
 

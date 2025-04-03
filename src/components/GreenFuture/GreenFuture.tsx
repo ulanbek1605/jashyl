@@ -4,7 +4,7 @@ import './greenFuture.css'
 function GreenFuture() {
 	return (
 		<div className='global_container'>
-			<div className='greenfuture'>
+			<div className='greenfuture' id='greenfuture'>
 				<h2 className='greenfuture_title'>
 					<Image src="/images/svg/green.svg" className='greenfuture_title-green' alt="Logo" width={0} height={0} sizes={'100%'} />
 					<span>Зе</span>леное будущее</h2>
