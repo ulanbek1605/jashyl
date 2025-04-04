@@ -70,8 +70,8 @@ function Footer() {
 				</div>
 
 				<div className='footer-config'>
-					<Link href="/privacy-policy" > <p>Политика конфиденциальности</p></Link>
-					<Link href="/user-arguments" > <p>Пользовательскае соглашение</p></Link>
+					<p>	<Link href="/privacy-policy" > Политика конфиденциальности</Link></p>
+					<p><Link href="/user-arguments" > Пользовательскае соглашение</Link></p>
 				</div>
 			</div>
 
