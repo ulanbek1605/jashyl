@@ -1,5 +1,5 @@
 .greenfuture{
-	margin-top: 60px;
+	margin-top: 100px;
 }
 .greenfuture_title {
 	width: 445px;
@@ -194,6 +194,7 @@
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		margin-top: 50px;
 	}
 
 	.grid-container {

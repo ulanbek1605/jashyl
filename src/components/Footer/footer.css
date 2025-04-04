@@ -202,7 +202,7 @@
 	gap: 40px;
 	color: #FFFFFF;
 	font-size: 16px;
-	margin-top: 40px;
+	margin-top: 75px;
 	cursor: pointer;
 }
 
@@ -412,6 +412,7 @@
 
 	.footer-config {
 		padding: 33px 10px 0px;
+		margin-top: 40px;
 	}
 
 
@@ -470,6 +471,7 @@
 	.footer-config {
 		padding: 33px 10px 0px;
 		flex-direction: column;
+		margin-top: 30px;
 		gap: 40px;
 	}
 
@@ -553,6 +555,7 @@
 
 	.footer-config {
 		padding: 2px 10px 0px;
+		margin-top: 40px;
 	}
 
 	.footer-config p a {
@@ -566,6 +569,14 @@
 	.footerInfo {
 		padding: 172px 10px 0;
 		height: 500px;
+	}
+
+
+
+	.footerInfoPolicy {
+		margin-top: 20px;
+		width: 100%;
+		height: 406px;
 	}
 }
 
